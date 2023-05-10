@@ -193,7 +193,7 @@ user_prompt = int(input('Enter an integer please:'))
 valida = input('Would you like to proceed? y/n:').lower()
 if valida == 'y':
     print('number| squared| cubed')
-    for i in range(1,user_prompt):
+    for i in range(1,user_prompt + 1):
         print('{}     | {}      | {}'.format(i,i**2,i**3))
         valida = input('Would you like to proceed? y/n:').lower()
 
