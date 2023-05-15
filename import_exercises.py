@@ -149,3 +149,7 @@ print(b_count)
 # least common is bananas
 
 # Total number of unread messages for all users
+unread_mess = []
+for i in range(len(json_var)):
+    unread_mess.append(json_var[i]['greeting'])
+print(unread_mess)
